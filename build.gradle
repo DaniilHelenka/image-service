@@ -52,6 +52,7 @@ sonarqube {
         property "sonar.projectKey", "ImageServiceAPI2"
         property "sonar.projectName", "Image Service"
         property "sonar.projectVersion", "1.0"
+		property "sonar.gradle.skipCompile", "true"
         property "sonar.host.url", "https://sonarcloud.io"
 		property "sonar.organization", "danilkhel"
         // В CI будет передаваться через env
